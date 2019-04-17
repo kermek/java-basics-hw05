@@ -11,6 +11,7 @@ public class Zoo {
     // TODO fix method declaration
     System.out.println("Feeding birds");
     // TODO print birds in the cycle
+    list.forEach (bird -> System.out.println(bird));
   }
 
   /**
@@ -23,7 +24,10 @@ public class Zoo {
     // TODO fix method declaration
     System.out.println("Accepting bird to a section");
     // TODO check flying bird wings
+    bird.checkWings();
     // TODO add bird to the list and print it
+    list.add(bird);
+    list.forEach (item -> System.out.println(item));
   }
 
   /**
@@ -36,6 +40,8 @@ public class Zoo {
     // TODO fix method declaration
     System.out.println("Adding bird to the birds list");
     // TODO add bird to list
+    list.add(newBird);
     // TODO print birds in the cycle
+    list.forEach (item -> System.out.println(item));
   }
 }
