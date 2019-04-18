@@ -12,6 +12,7 @@ public class Zoo {
         showBirds(list);
 
     }
+
     /**
      * Adds birds to a flying section of the zoo.
      *
@@ -25,10 +26,8 @@ public class Zoo {
         System.out.println("Accepting bird to a section");
         // TODO check flying bird wings
         bird.checkWings();
-
         // TODO add bird to the list and print it
         flyingBird.add(bird);
-
         showBirds(flyingBird);
 
     }
@@ -45,7 +44,6 @@ public class Zoo {
         System.out.println("Adding bird to the birds list");
         // TODO add bird to list
         newBirds.add(newBird);
-
         // TODO print birds in the cycle
         showBirds(newBirds);
     }
